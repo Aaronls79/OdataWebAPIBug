@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdataWebAPI.Web", "src\OdataWebAPI.Web.csproj", "{2CD6AD59-0F63-4F4D-826E-EC8D6C70459E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		PreProd|Any CPU = PreProd|Any CPU
+		Production|Any CPU = Production|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CD6AD59-0F63-4F4D-826E-EC8D6C70459E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD6AD59-0F63-4F4D-826E-EC8D6C70459E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD6AD59-0F63-4F4D-826E-EC8D6C70459E}.PreProd|Any CPU.ActiveCfg = PreProd|Any CPU
+		{2CD6AD59-0F63-4F4D-826E-EC8D6C70459E}.PreProd|Any CPU.Build.0 = PreProd|Any CPU
+		{2CD6AD59-0F63-4F4D-826E-EC8D6C70459E}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{2CD6AD59-0F63-4F4D-826E-EC8D6C70459E}.Production|Any CPU.Build.0 = Production|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAFFA7D8-99C0-44F7-9EC2-6E04406A44E0}
+	EndGlobalSection
+EndGlobal
