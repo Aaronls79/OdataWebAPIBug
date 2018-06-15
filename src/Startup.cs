@@ -11,7 +11,6 @@ namespace OdataWebAPI
     {
         public void Configuration(IAppBuilder app)
         {
-
             var configuration = new HttpConfiguration();
 
             WebApiConfig.Register(configuration);
