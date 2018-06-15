@@ -9,8 +9,6 @@ namespace OdataWebAPI
     {
         public static void Register(HttpConfiguration config)
         {
-            // Configure Web API to use only bearer token authentication.
-            config.SuppressDefaultHostAuthentication();
 
             // Web API routes
             config.MapHttpAttributeRoutes();
