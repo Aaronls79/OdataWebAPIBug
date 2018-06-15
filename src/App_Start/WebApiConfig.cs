@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
-using System.Web.OData.Builder;
-using System.Web.OData.Extensions;
+using Microsoft.AspNet.OData.Builder;
+using Microsoft.AspNet.OData.Extensions;
 using OdataWebAPI.Models;
 
 namespace OdataWebAPI
@@ -19,15 +19,15 @@ namespace OdataWebAPI
             config.AddODataQueryFilter();
             config.EnableDependencyInjection();
 
-            ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
+            //ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
 
-            builder.EnableLowerCamelCase(NameResolverOptions.ProcessReflectedPropertyNames | NameResolverOptions.ProcessExplicitPropertyNames);
+            //builder.EnableLowerCamelCase(NameResolverOptions.ProcessReflectedPropertyNames | NameResolverOptions.ProcessExplicitPropertyNames);
 
-            builder.EntitySet<KISS>("KISS");
+            //builder.EntitySet<KISS>("KISS");
 
-            var edmModel = builder.GetEdmModel();
+            //var edmModel = builder.GetEdmModel();
 
-            config.MapODataServiceRoute("ODataRoute", "/", edmModel);
+            //config.MapODataServiceRoute("ODataRoute", "/", edmModel);
 
             config.Routes.MapHttpRoute(
                 "DefaultApi",
